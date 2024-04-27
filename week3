@@ -1,0 +1,51 @@
+{
+  "Movie Resources": [
+    {
+      "@context": "https://www.flixster.com/",
+      "@type": "resource",
+      "id": "1",
+      "name": "Flixster",
+      "description": "Check out what movies are currently playing in theaters"
+    },
+    {
+      "@context": "https://www.rottentomatoes.com/",
+      "@type": "resource",
+      "id": "2",
+      "name": "Rotten Tomatoes",
+      "description": "Want to read a movie review before committing to watching the film?"
+    },
+    {
+      "@context": "https://www.imdb.com/",
+      "@type": "resource",
+      "id": "3",
+      "name": "IMDB",
+      "description": "A resource for anything and everything movie related"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://my-json-server.typicode.com/moegalindo/intro",
+      "@type": "Person",
+      "id": "1",
+      "name": "User",
+      "description": "Username",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://my-json-server.typicode.com/moegalindo/intro",
+      "@type": "Person",
+      "id": "2",
+      "name": "Name",
+      "description": "Username",
+      "itemId": "1"
+    }
+  ],
+  "entertainmentcompany": {
+    "@context": "https://a24films.com/",
+    "@type": "website",
+    "name": "A24",
+    "creator": "A24",
+    "about": "Every A24 movie is an absolute banger",
+    "url": "https://a24films.com/"
+  }
+}
